@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="a.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="our_team">
+           <div class="team team_1">
+               <div class="team_img">
+                 <img src="a.jpg" alt="team_member">  
+             </div>
+             <div class="team_role">
+              <h4>ayşe yılmaz</h4>
+              <h5>mühendis</h5>
+            </div>
+           </div>
+           <div class="team team_2">
+              <div class="team_img">
+                 <img src="b.jpg" alt="team_member">  
+             </div>
+             <div class="team_role">
+              <h4>ayşe yılmaz</h4>
+              <h5>mühendis</h5>
+            </div>
+          </div>
+           <div class="team team_3">
+             <div class="team_img">
+                 <img src="a.jpg" alt="team_member">  
+             </div>
+             <div class="team_role">
+              <h4>ayşe yılmaz</h4>
+              <h5>mühendis</h5>
+            </div>
+          </div>
+           <div class="team team_4">
+             <div class="team_img">
+                 <img src="b.jpg" alt="team_member">  
+             </div>
+             <div class="team_role">
+              <h4>ayşe yılmaz</h4>
+              <h5>mühendis</h5>
+            </div>
+      </div>
+    </div>
+
+
+    <script>
+    var menu_items = document.querySelectorAll(".menu");
+    
+    
+    Array.from(menu_items).forEach(function(menu){
+      menu.addEventListener("click", function(){
+        this.classList.toggle("active")
+      });
+    });
+    </script>
+    
+</body>
+</html>
